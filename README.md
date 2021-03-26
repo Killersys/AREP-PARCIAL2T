@@ -2,7 +2,7 @@
 
 ## Requerimientos
 
-Diseñe, construya y despliegue los siguientes servicios en un microcontenedor docker desplegado en una instancei a EC2 de AWS. Cada estudiante debe seleccionar para desarrollar dos funciones matemáticas de acuerdo a los dos últimos dígitos de su cédula como se especifica en la lista. Todas las funciones reciben un solo parámetro de tipo "Double" y retornan una prámetro sde tipo "Double".
+Diseñe, construya y despliegue los siguientes servicios en un microcontenedor docker desplegado en una instancei a EC2 de AWS y otro desplegador en AWS lambda con AWS gateway. . Cada estudiante debe seleccionar para desarrollar dos funciones matemáticas de acuerdo a los dos últimos dígitos de su cédula como se especifica en la lista. Todas las funciones reciben un solo parámetro de tipo "Double" y retornan una prámetro sde tipo "Double".
 
 0. log
 1. ln
@@ -20,6 +20,12 @@ Implemente los servicios para responder al método de solicitud HTTP GET. Deben 
 Ejemplo de un llamado:
 
 https://amazonxxx.x.xxx.x.xxx:{port}/cos?value=3.141592
+
+
+Lambda + API Gateway
+https://amazonxxx.x.xxx.x.xxx/sin?value=3.141592
+
+
 
 Salida. El formato de la salida y la respuesta debe ser un JSON con el siguiente formato
 
@@ -88,6 +94,19 @@ Realizamos el mismo procedimiento para revisar que la función logaritmo esté f
 ----------
 
 ### AWS
+
+
+Desplegamos el Docker en nuestra máquina AWS  y verificamos que esté corriendo por el puerto usado (en este caso fue el 8000) y abrimos la URL: http://ec2-100-25-220-199.compute-1.amazonaws.com:8000/log?value=3.141592. Podemos observar que se encuentra desplegada
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Awslog.PNG)
+
+Comprobamos que la aplicación funcione de manera local utilizando docker, para ello calculamos el coseno del ejemplo dado (3.141592). Para ello ingresamos en el navegador la URL: http://localhost:8000/cos?value=3.141592
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Dockercos.PNG)
+
+Realizamos el mismo procedimiento para revisar que la función coseno esté funcionando. Ingresamos en la URL: http://ec2-100-25-220-199.compute-1.amazonaws.com:8000/cos?value=3.141592.
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Awscos.PNG)
+
 
 
 
