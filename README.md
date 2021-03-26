@@ -99,10 +99,6 @@ Realizamos el mismo procedimiento para revisar que la función logaritmo esté f
 Desplegamos el Docker en nuestra máquina AWS  y verificamos que esté corriendo por el puerto usado (en este caso fue el 8000) y abrimos la URL: http://ec2-100-25-220-199.compute-1.amazonaws.com:8000/log?value=3.141592. Podemos observar que se encuentra desplegada
 ![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Awslog.PNG)
 
-Comprobamos que la aplicación funcione de manera local utilizando docker, para ello calculamos el coseno del ejemplo dado (3.141592). Para ello ingresamos en el navegador la URL: http://localhost:8000/cos?value=3.141592
-
-![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Dockercos.PNG)
-
 Realizamos el mismo procedimiento para revisar que la función coseno esté funcionando. Ingresamos en la URL: http://ec2-100-25-220-199.compute-1.amazonaws.com:8000/cos?value=3.141592.
 
 ![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Awscos.PNG)
