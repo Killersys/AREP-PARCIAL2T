@@ -73,6 +73,24 @@ A continuación se muestran las pruebas compiladas correctamente para el código
 
 ### Docker
 
+Abrimos la aplicación de Docker y verificamos que esté corriendo por el puerto usado (en este caso fue el 8000) 
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Dockerdesktop.PNG)
+
+Comprobamos que la aplicación funcione de manera local utilizando docker, para ello calculamos el coseno del ejemplo dado (3.141592). Para ello ingresamos en el navegador la URL: http://localhost:8000/cos?value=3.141592
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Dockercos.PNG)
+
+Realizamos el mismo procedimiento para revisar que la función logaritmo esté funcionando. Ingresamos en la URL: http://localhost:8000/log?value=3.141592.
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Dockerlog.PNG)
+
+
+----------
+
+### AWS
+
+
+
 
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
