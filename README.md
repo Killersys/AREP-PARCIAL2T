@@ -142,16 +142,79 @@ Luego de guardar los cambios, seleccionamos la pestaña "Probar". Seleccionamos 
 
 Observamos el resultado de ejecución de la prueba.
 
-![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaprueba.PNG)
-
 ![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaprueba2.PNG)
 
 ----------
 
 
+### API Gateway
+
+```
+Paso a Paso
+```
+
+Seleccionamos el servicio de API Gateway
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway.PNG)
+
+Creamos una API Rest
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway2.PNG)
+
+Nombramos nuestra API y la creamos
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway3.PNG)
+
+Seleccionamos Acciones y creamos un método GET y nombramos nuestra función en la ventana de configuración
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway4.PNG)
+
+Ingresamos a la Solicitud de método
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiSolicitud.PNG)
+
+Agregamos un parámetro de cadenas de consulta 
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apivalue.PNG)
+
+Ahora ingresamos a Solicitud de Integración
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiSolicitud.PNG)
+
+Y agregamos una nueva cadena de consulta de URL
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway5.PNG)
+
+Ahora seleccionamos plantillas de mapeo; Seleccionamos la recomendada y añadimos una nueva plantilla de mapeo
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apimapeo.PNG)
+
+Creamos una prueba
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/ApiGateway6.PNG)
+
+Añadimos un valor y la ejecutamos
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apiprueba.PNG)
+
+Ya teniendo la prueba satisfactoria, procedemos a implementar la API. Para ello seleccionamos Acciones y elegimos "Implementar API"
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apiimplementacion.PNG)
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apiimplementacion2.PNG)
+
+Nos arrojará una URL en la cuál podemos ingresar a la API implementada y observar su ejecución
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apicorriendo.PNG)
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Apicorriendocos.PNG)
+
+
+
+----------
+
 ### Video prueba
 
-![awsWorkingVideo](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/Sustentación.gif)  
+![awsWorkingVideo](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/Sustentación.mp4)  
 
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
