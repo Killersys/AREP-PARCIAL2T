@@ -104,8 +104,54 @@ Realizamos el mismo procedimiento para revisar que la función coseno esté func
 ![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Awscos.PNG)
 
 
+----------
+
+### Lambda
+
+```
+Paso a Paso
+```
+
+Seleccionamos el servicio Lambda
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambda.PNG)
+
+Seleccionamos Crear Función
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambda2.PNG)
+
+Seleccionamos Función desde cero, asignamos un nombre a la función y seleccionamos el lenguaje como "Java 8".
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambda3.PNG)
+
+Tomamos un rol existente y creamos la función
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambda4.PNG)
+
+Para el código fuente elegimos "cargar desde" y seleccionamos nuestro .jar 
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga.PNG)
+
+Configuramos el tiempo de ejecución y añadimos el controlador
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaedicion.PNG)
+
+Luego de guardar los cambios, seleccionamos la pestaña "Probar". Seleccionamos el nombre de la prueba e ingresamos un valor. Enseguida invocamos.
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaprueba.PNG) 
+
+Observamos el resultado de ejecución de la prueba.
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga2.PNG)
+
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga.PNG)
+
+----------
 
 
+### Video prueba
+
+![awsWorkingVideo](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/sustentación.gif)  
 
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
@@ -116,7 +162,7 @@ Realizamos el mismo procedimiento para revisar que la función coseno esté func
 * [Docker](https://www.docker.com/). Programa encargado de crear contenedores ligeros y portables para las aplicaciones software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo, facilitando así también los despliegues.
 * [AWS](https://aws.amazon.com/es/). Conjunto de herramientas y servicios de cloud computing de Amazon, que engloba una gran cantidad de servicios para poder realizar distintos tipos de actividades en la nube. Desde almacenamiento a la gestión de instancias, imágenes virtuales, desarrollo de aplicaciones móviles, etc.
 * [CircleCI](https://circleci.com/). Plataforma moderna de integración continua y entrega continua (CI / CD) que se encarga de automatizar la construcción, pruebas e implementación de software.
-
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Killersys/AREP-PARCIAL2T)
 
 ## Autor
 [Jairo Pulido](https://github.com/Killersys)
