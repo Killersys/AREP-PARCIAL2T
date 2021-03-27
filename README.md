@@ -130,7 +130,7 @@ Tomamos un rol existente y creamos la función
 
 Para el código fuente elegimos "cargar desde" y seleccionamos nuestro .jar 
 
-![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga.PNG)
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/lambdacarga.PNG)
 
 Configuramos el tiempo de ejecución y añadimos el controlador
 
@@ -142,16 +142,16 @@ Luego de guardar los cambios, seleccionamos la pestaña "Probar". Seleccionamos 
 
 Observamos el resultado de ejecución de la prueba.
 
-![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga2.PNG)
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaprueba.PNG)
 
-![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdacarga.PNG)
+![img](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/img/Lambdaprueba2.PNG)
 
 ----------
 
 
 ### Video prueba
 
-![awsWorkingVideo](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/sustentación.gif)  
+![awsWorkingVideo](https://github.com/Killersys/AREP-PARCIAL2T/blob/master/Sustentación.gif)  
 
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
